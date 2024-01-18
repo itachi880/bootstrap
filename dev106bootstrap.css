@@ -58,22 +58,22 @@
   font-weight: var(--font-weight);
 }
 /*bg color*/
-.bgc-c {
+.bgC-c {
   background-color: var(--background-color);
 }
-.bgc-warning {
+.bgC-warning {
   background-color: var(--warning);
 }
-.bgc-error {
+.bgC-error {
   background-color: var(--error);
 }
-.bgc-dark {
+.bgC-dark {
   background-color: var(--dark);
 }
-.bgc-light {
+.bgC-light {
   background-color: var(--light);
 }
-.bgc-success {
+.bgC-success {
   background-color: var(--success);
 }
 /*buttons*/
