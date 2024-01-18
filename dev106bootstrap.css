@@ -1,0 +1,91 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  --background-color: transparent;
+  --font-weight: 500;
+}
+:root {
+  --warning: rgb(255, 153, 0);
+  --success: rgb(0, 255, 64);
+  --error: rgb(255, 0, 0);
+  --dark: rgb(0, 0, 0);
+  --light: rgb(255, 255, 255);
+}
+/*text color*/
+.textC-warning {
+  color: var(--warning);
+}
+.textC-success {
+  color: var(--success);
+}
+.textC-error {
+  color: var(--error);
+}
+.textC-dark {
+  color: var(--dark);
+}
+.textC-light {
+  color: var(--light);
+}
+.textC-c {
+  color: var(--font-color);
+}
+/*font size*/
+.font-size-c {
+  font-size: var(--font-size);
+}
+.font-size-h1 {
+  font-size: 34px;
+}
+.font-size-h2 {
+  font-size: 30px;
+}
+.font-size-h3 {
+  font-size: 24px;
+}
+.font-size-h4 {
+  font-size: 20px;
+}
+/*font weight*/
+.font-weight-bold {
+  font-weight: bold;
+}
+.font-weight-light {
+  font-weight: lighter;
+}
+.font-weight-c {
+  font-weight: var(--font-weight);
+}
+/*bg color*/
+.bgc-c {
+  background-color: var(--background-color);
+}
+.bgc-warning {
+  background-color: var(--warning);
+}
+.bgc-error {
+  background-color: var(--error);
+}
+.bgc-dark {
+  background-color: var(--dark);
+}
+.bgc-light {
+  background-color: var(--light);
+}
+.bgc-success {
+  background-color: var(--success);
+}
+/*buttons*/
+.btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 2px;
+  text-decoration: none;
+  text-transform: capitalize;
+  list-style: none;
+  * {
+    text-decoration: none;
+    list-style: none;
+  }
+}
