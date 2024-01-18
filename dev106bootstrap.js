@@ -18,7 +18,6 @@ const dev106Css = cssLinks.forEach((link, index) => {
 const fontSize = document.querySelectorAll(".font-size-c");
 fontSize.forEach((element) => {
   let index = 0;
-  console.log("in font-size");
   element.classList.forEach((classItem, key) => {
     if ("font-size-c" == classItem) {
       index = key + 1;
@@ -28,11 +27,11 @@ fontSize.forEach((element) => {
   element.style.setProperty("--font-size", fontSize);
 });
 /*background color custume value*/
-const bacgroundC = document.querySelectorAll(".bgc-c");
+const bacgroundC = document.querySelectorAll(".bgC-c");
 bacgroundC.forEach((element) => {
   let index = 0;
   element.classList.forEach((classItem, key) => {
-    if ("bgc-c" == classItem) {
+    if ("bgC-c" == classItem) {
       index = key + 1;
     }
   });
